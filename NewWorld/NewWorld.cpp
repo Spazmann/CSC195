@@ -10,7 +10,7 @@ int main()
     bool myBool = true;
 
 
-    std::cout << "Hello World!\n";
+    std::cout << "Git\n";
 
     char myChar = 'a';
     char* ptrChar;
