@@ -36,9 +36,10 @@ int main()
     //  Below is heap stuff
     char* cTemp = NULL;
     cTemp = (char*) malloc(20); // 20 bytes of Heap
-    memset(cTemp, NULL, 20);
+    memset(cTemp, '\0', 20);
     // Do stuff
     free(cTemp);
+
 
 
 
